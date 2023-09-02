@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting</title>
+    <link rel="stylesheet" href="setting.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,300;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="language">
+        <header>
+            <nav class="nav-setting">
+                <div class="contenue">
+                    <div class="back">
+                        <i  onclick="openlangauge()" class='bx bx-arrow-back'></i>
+                    </div>
+                    <div class="text-setting">
+                        <h3>language</h3>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="image-text">
+            <img src="image/télécharger.jfif" alt="">
+            <h3>please select your language</h3>
+        </div>
+        <hr>
+        <div class="input-language">
+            <div class="recom">
+                <label for=""><a href="#" class="defaut">english (defaut)</a></label>
+            </div>
+            <div class="recom">
+                <label for=""><a href="#">afrikaas (sud afrika)</a></label>
+            </div>
+            <div class="recom">
+                <label for=""><a href="#">francais</a></label>
+            </div>
+            <div class="recom">
+                <label for=""><a href="#">espagnol</a></label>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="help">
+        <header>
+            <nav class="nav-setting">
+                <div class="contenue">
+                    <div class="back">
+                        <i  onclick="openhelp()" class='bx bx-arrow-back'></i>
+                    </div>
+                    <div class="text-setting">
+                        <h3>help</h3>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="image-text">
+            <img src="image/OIP.jfif" alt="">
+        </div>
+        <hr>
+      
+    </div>
+
+    <header>
+        <nav class="nav-setting">
+            <div class="contenue">
+                <div class="back">
+                    <i  onclick="history.back()" class='bx bx-arrow-back'></i>
+                </div>
+                <div class="text-setting">
+                    <h3>settings</h3>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <ul class="lists">
+            <li class="ver-no"><a href="#">
+                <span class="version">version</span>
+                <span class="numerov">0.53.9</span>
+            </a></li>
+            <li onclick="openlangauge()"><a href="#">language</a></li>
+            <li onclick="openhelp()"><a href="#">help</a></li>
+        </ul>
+        <hr>
+        <div class="action">
+            <div class="sahre">
+                <span class="icon"><i class='bx bx-share-alt'></i></span>
+                <span class="text">share appl</span>
+            </div>
+            <div class="sahre">
+                <span class="icon"><i class='bx bx-log-out-circle' ></i></span>
+                <span class="text">log out</span>
+            </div>
+        </div>
+        <div class="invite">
+            <h4><i class='bx bx-user-voice'></i> invite your friends to boncoin!</h4>
+        </div>
+    </main>
+    
+
+
+    <script src="setting.js"></script>
+</body>
+</html>
